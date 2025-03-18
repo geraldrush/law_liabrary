@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.tile {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tile:hover {
+    background-color: #ddd;
+}
+
+form {
+    margin: 20px 0;
+}
+
+textarea,
+input,
+select {
+    margin: 5px 0;
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+audio,
+video {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+}
